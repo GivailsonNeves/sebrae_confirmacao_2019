@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sebrae Confirmaca</string>
+    <string name="logo_call">Centro Sebrae de Referência em Educação Empreendedora</string>
+    <string name="form_call">Cadastre-se para fazer parte do nosso banco de dados e receber orientações exclusivas
+    </string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logo_sebrae">Logo Sebrae</string>
+    <string name="nome">Nome</string>
+    <string name="cpf_cnpj">CPF/CNPJ</string>
+    <string name="uf">UF</string>
+    <string name="e_mail">E-mail</string>
+    <string name="esta_vinculado_question">Está vinculado a alguma instituição de ensino?</string>
+    <string name="qual">Qual?</string>
+    <string name="voce_e_question">Você é?</string>
+    <string name="gestor_publico">Gestor da Iniciativa pública</string>
+    <string name="aluno">Aluno</string>
+    <string name="professor">Professor</string>
+    <string name="gestor_privada">Gestor da Iniciativa privada</string>
+    <string name="outros">Outros</string>
+    <string name="inscrever_se">Inscrever-se</string>
+    <string name="registrando">Registrando</string>
+
+
+    <string-array name="uf_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>

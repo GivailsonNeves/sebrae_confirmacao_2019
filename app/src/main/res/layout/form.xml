@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome" android:singleLine="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:hint="@string/cpf_cnpj" android:singleLine="true" android:inputType="phone"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView android:layout_width="match_parent"
+              android:text="@string/uf"
+              android:layout_height="wrap_content"/>
+    <Spinner android:layout_width="match_parent"
+             android:id="@+id/spUf"
+             android:layout_height="wrap_content"
+             android:spinnerMode="dialog">
+
+    </Spinner>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionNext"
+                android:hint="@string/e_mail" android:singleLine="true"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/esta_vinculado_question"
+    />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <Switch
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/switch1"
+        />
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/default_spacer"
+                android:imeOptions="actionDone"
+                android:layout_height="wrap_content" tools:ignore="RtlHardcoded">
+
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/qual" android:singleLine="true"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/voce_e_question"
+    />
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <CheckBox
+                android:text="@string/aluno"
+                android:layout_width="@dimen/checkbox_min_size"
+                android:layout_height="wrap_content"/>
+        <CheckBox
+                android:text="@string/gestor_publico"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <CheckBox
+                android:text="@string/professor"
+                android:layout_width="@dimen/checkbox_min_size"
+                android:layout_height="wrap_content"/>
+        <CheckBox
+                android:text="@string/gestor_privada"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <CheckBox
+                android:text="@string/outros"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/default_spacer"
+            android:layout_marginBottom="@dimen/default_spacer"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+    />
+    <Button
+            android:text="@string/inscrever_se"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/colorLight"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRegister"/>
+</LinearLayout>

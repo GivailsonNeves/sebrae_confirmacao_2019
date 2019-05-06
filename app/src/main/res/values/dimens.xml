@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_spacer">15sp</dimen>
+    <dimen name="title_size">15sp</dimen>
+    <dimen name="area_spacer">40sp</dimen>
+    <dimen name="button_size">150dp</dimen>
+    <dimen name="checkbox_min_size">150dp</dimen>
+</resources>
