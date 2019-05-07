@@ -20,16 +20,39 @@
     <string name="outros">Outros</string>
     <string name="inscrever_se">Inscrever-se</string>
     <string name="registrando">Registrando</string>
+    <string name="api_path">/</string>
+    <string name="registrado_sucesso">Erro ao efetuar registro</string>
+    <string name="registro_erro">Registro realizado com sucesso!</string>
+    <string name="field_validation">Preencha os campos corretamente!</string>
 
 
     <string-array name="uf_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>AC</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>AP</item>
+        <item>BA</item>
+        <item>CE</item>
+        <item>DF</item>
+        <item>ES</item>
+        <item>GO</item>
+        <item>MA</item>
+        <item>MG</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>PA</item>
+        <item>PB</item>
+        <item>PE</item>
+        <item>PI</item>
+        <item>PR</item>
+        <item>RJ</item>
+        <item>RN</item>
+        <item>RO</item>
+        <item>RR</item>
+        <item>RS</item>
+        <item>SC</item>
+        <item>SE</item>
+        <item>SP</item>
+        <item>TO</item>
     </string-array>
 </resources>

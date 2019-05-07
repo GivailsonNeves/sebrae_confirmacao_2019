@@ -7,6 +7,6 @@ import retrofit2.http.POST
 
 interface MainService {
 
-    @POST("/register")
-    fun register(@Body register: Register): Call<Register>
+    @POST("?type=registrar")
+    fun register(@Body register: Register): Call<Void>
 }

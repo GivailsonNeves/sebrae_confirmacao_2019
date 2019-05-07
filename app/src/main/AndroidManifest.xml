@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools" package="com.acptdev.sebraeconfirmacaapp">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
             android:allowBackup="true"
@@ -12,6 +13,7 @@
             tools:ignore="GoogleAppIndexingWarning">
         <activity
                 android:name=".SplashActivity"
+                android:noHistory="true"
                 android:configChanges="orientation|keyboardHidden|screenSize"
                 android:theme="@style/FullscreenTheme">
             <intent-filter>
