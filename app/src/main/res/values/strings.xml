@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sebrae Confirmaca</string>
+    <string name="app_name">Sebrae Confirmação</string>
     <string name="logo_call">Centro Sebrae de Referência em Educação Empreendedora</string>
     <string name="form_call">Cadastre-se para fazer parte do nosso banco de dados e receber orientações exclusivas
     </string>
@@ -20,7 +20,7 @@
     <string name="outros">Outros</string>
     <string name="inscrever_se">Inscrever-se</string>
     <string name="registrando">Registrando</string>
-    <string name="api_path">/</string>
+    <string name="api_path">http://sebraelikeaboss.esy.es/service.php/</string>
     <string name="registrado_sucesso">Erro ao efetuar registro</string>
     <string name="registro_erro">Registro realizado com sucesso!</string>
     <string name="field_validation">Preencha os campos corretamente!</string>
