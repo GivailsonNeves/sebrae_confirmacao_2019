@@ -5,4 +5,5 @@
     <color name="colorAccent">#007DC6</color>
     <color name="colorLight">#FFFFFF</color>
     <color name="black_overlay">#66000000</color>
+    <color name="bg_app">#66d700a1</color>
 </resources>
